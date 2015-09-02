@@ -3,17 +3,60 @@
 <head>
   <meta charset="utf-8">
   
-  <title>Tinker&#39;s blog</title>
+  <title>使用Hexo + GitHub搭建你的静态blog | Tinker&#39;s blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="blog">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Tinker's blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+  <meta name="description" content="hexo是一款基于Node.js的静态blog框架.  
+特点
+搭建速度快支持markdown语法扩展性好
+快速入门
+前置需求
+NodeJs + GitHub安装hexo
+npm install hexo -g
+创建根目录
+$ mkdir [your foldername]
+初始化
+
+$ hexo init [your foldername]
+$ cd [your foldername]
+$ np">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用Hexo + GitHub搭建你的静态blog">
+<meta property="og:url" content="http://yoursite.com/2015/09/02/hexo搭建blog/index.html">
 <meta property="og:site_name" content="Tinker's blog">
-<meta property="og:description" content="blog">
+<meta property="og:description" content="hexo是一款基于Node.js的静态blog框架.  
+特点
+搭建速度快支持markdown语法扩展性好
+快速入门
+前置需求
+NodeJs + GitHub安装hexo
+npm install hexo -g
+创建根目录
+$ mkdir [your foldername]
+初始化
+
+$ hexo init [your foldername]
+$ cd [your foldername]
+$ np">
+<meta property="og:image" content="http://yoursite.com/img/hexo-git1.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo-git2.png">
+<meta property="og:image" content="http://yoursite.com/img/hexo-git3.png">
+<meta property="og:updated_time" content="2015-09-02T05:48:12.148Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Tinker's blog">
-<meta name="twitter:description" content="blog">
+<meta name="twitter:title" content="使用Hexo + GitHub搭建你的静态blog">
+<meta name="twitter:description" content="hexo是一款基于Node.js的静态blog框架.  
+特点
+搭建速度快支持markdown语法扩展性好
+快速入门
+前置需求
+NodeJs + GitHub安装hexo
+npm install hexo -g
+创建根目录
+$ mkdir [your foldername]
+初始化
+
+$ hexo init [your foldername]
+$ cd [your foldername]
+$ np">
   
     <link rel="alternative" href="/atom.xml" title="Tinker&#39;s blog" type="application/atom+xml">
   
@@ -122,9 +165,7 @@
 		</header>				
 	</div>
 </nav>
-      <div class="body-wrap">
-  
-    <article id="post-hexo搭建blog" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-hexo搭建blog" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
       <a href="/2015/09/02/hexo搭建blog/" class="article-date">
@@ -140,12 +181,23 @@
       <header class="article-header">
         
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2015/09/02/hexo搭建blog/">使用Hexo + GitHub搭建你的静态blog</a>
+    <h1 class="article-title" itemprop="name">
+      使用Hexo + GitHub搭建你的静态blog
     </h1>
   
 
       </header>
+      
+      <div class="article-info article-info-post">
+        
+	<div class="article-tag tagcloud">
+		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NodeJs/">NodeJs</a></li></ul>
+	</div>
+
+        
+
+        <div class="clearfix"></div>
+      </div>
       
     
     <div class="article-entry" itemprop="articleBody">
@@ -201,31 +253,32 @@ $ npm install hexo-deployer-git --save
       
     </div>
     
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/GitHub/">GitHub</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hexo/">Hexo</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NodeJs/">NodeJs</a></li></ul>
-	</div>
-
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
+  
+    
   
 </article>
 
 
+<div class="share">
+	<!-- JiaThis Button BEGIN -->
+	<div class="jiathis_style">
+		<span class="jiathis_txt">分享到：</span>
+		<a class="jiathis_button_tsina"></a>
+		<a class="jiathis_button_cqq"></a>
+		<a class="jiathis_button_douban"></a>
+		<a class="jiathis_button_weixin"></a>
+		<a class="jiathis_button_tumblr"></a>
+		<a href="http://www.jiathis.com/share" class="jiathis jiathis_txt jtico jtico_jiathis" target="_blank"></a>
+	</div>
+	<script type="text/javascript" src="http://v3.jiathis.com/code/jia.js?uid=1405949716054953" charset="utf-8"></script>
+	<!-- JiaThis Button END -->
+</div>
 
 
 
 
 
-  
-  
 </div>
       <footer id="footer">
   <div class="outer">
@@ -249,8 +302,8 @@ $ npm install hexo-deployer-git --save
 		fancybox: true,
 		mathjax: true,
 		animate: true,
-		isHome: true,
-		isPost: false,
+		isHome: false,
+		isPost: true,
 		isArchive: false,
 		isTag: false,
 		isCategory: false,
